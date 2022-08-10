@@ -8,6 +8,9 @@ public class Soma {
 
 		double media = (notaProva1 + notaProva2 + notaProva3) / 3;
 
+		boolean trabalhoExtra = true;
+		double pontoExtra = 1;
+		
 		if (media > 6.5 && media < 7) {
 			media = Math.ceil(media);
 			System.out.println(Math.ceil(media));
@@ -17,6 +20,9 @@ public class Soma {
 			System.out.println("Aluno passou com boa nota")
 		} else if (media > 9) {
 			System.out.println("Aluno passou com excelência")
+		} else if (media < 6.5 && trabalhoExtra == true) {
+			media = media + pontoExtra
+			System.out.println("Nota do aluno com ponto extra :" + media)
 		} else {
 			System.out.println("Aluno foi reprovado")
 		}
