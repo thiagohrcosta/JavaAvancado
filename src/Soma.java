@@ -6,8 +6,9 @@ public class Soma {
 		double notaProva2 = 4.5;
 		double notaProva3 = 6;
 		double notaProva4 = 7;
+		double notaProva5 = 10
 
-		double media = (notaProva1 + notaProva2 + notaProva3 + notaProva4) / 4;
+		double media = (notaProva1 + notaProva2 + notaProva3 + notaProva4 + notaProva5) / 5;
 
 		boolean trabalhoExtra = true;
 		double pontoExtra = 1;
